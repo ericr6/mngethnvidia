@@ -1,0 +1,619 @@
+17:55:05:606	d45e90c0	Check and remove old log files...
+17:55:05:607	d45e90c0	args: -epool eu1.nanopool.org:9999 -ewal 0x5c8bB4C5C393D8dD953aaa02C5A6dDeBA28aC99e.iexecworker2 -epsw x -mode 1 --allpools 0 -r 1 -etha 0 
+17:55:05:607	d45e90c0	
+17:55:05:607	d45e90c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+17:55:05:607	d45e90c0	บ                Claymore's Dual GPU Miner - v11.9               บ
+17:55:05:607	d45e90c0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+17:55:05:607	d45e90c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+17:55:05:607	d45e90c0	
+17:55:05:607	d45e90c0	b597 
+17:55:05:807	d45e90c0	ETH: 1 pool is specified
+17:55:05:808	d45e90c0	Main Ethereum pool is eu1.nanopool.org:9999
+17:55:05:813	d45e90c0	Cannot load OpenCL library, AMD cards will be unavailable
+17:55:05:825	d45e90c0	CUDA initializing...
+
+17:55:05:825	d45e90c0	NVIDIA Cards available: 1 
+17:55:05:825	d45e90c0	CUDA Driver Version/Runtime Version: 9.1/8.0
+17:55:05:825	d45e90c0	GPU #0: GeForce GTX 1050, 4042 MB available, 5 compute units, capability: 6.1  (pci bus 1:0:0)
+17:55:05:825	d45e90c0	Total cards: 1 
+17:55:09:827	d45e90c0	
+You can use "+" and "-" keys to achieve best ETH speed, see "FINE TUNING" section in Readme for details.
+
+17:55:10:832	d45e90c0	NVML version: 9.390.48
+17:55:10:838	d45e90c0	NVML: cannot get fan speed, error 3
+17:55:10:961	b83fd700	ETH: Stratum - connecting to 'eu1.nanopool.org' <198.251.88.16> port 9999 (unsecure)
+17:55:10:999	b83fd700	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x5c8bB4C5C393D8dD953aaa02C5A6dDeBA28aC99e.iexecworker2", "x"], "id": 2, "method": "eth_submitLogin"}
+
+17:55:10:999	b83fd700	ETH: Stratum - Connected (eu1.nanopool.org:9999) (unsecure)
+17:55:11:026	d45e90c0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+17:55:11:027	d45e90c0	ETH: eth-proxy stratum mode
+17:55:11:027	d45e90c0	Watchdog enabled
+17:55:11:027	d45e90c0	Remote management (READ-ONLY MODE) is enabled on port 3333
+17:55:11:027	d45e90c0	
+17:55:11:050	b83fd700	buf: {"jsonrpc":"2.0","id":2,"result":true}
+{"jsonrpc":"2.0","id":0,"result":["0xa13256cbf979aeb49ee3e5aed26c6b84171d5b4432e45ebf1ce9f0066be179f4","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:11:050	b83fd700	ETH: Authorized
+17:55:11:050	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:55:11:050	b83fd700	remove first packet 243
+17:55:11:090	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xa13256cbf979aeb49ee3e5aed26c6b84171d5b4432e45ebf1ce9f0066be179f4","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:11:124	b93ff700	Setting DAG epoch #220...
+17:55:11:814	d1bee700	NVML: cannot get fan speed, error 3
+17:55:12:138	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc263cc501f21add12461d474d0d4506b34f13da7df0717fcff3014c731dc1084","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:12:138	b83fd700	ETH: 10/30/18-17:55:12 - New job from eu1.nanopool.org:9999
+17:55:12:138	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:55:12:138	b83fd700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+17:55:12:138	b83fd700	ETH: GPU0 0.000 Mh/s
+17:55:13:488	b93ff700	Setting DAG epoch #220 for GPU0
+17:55:13:488	b93ff700	Create GPU buffer for GPU0
+17:55:14:814	d1bee700	NVML: cannot get fan speed, error 3
+17:55:16:434	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xd4d7fdbee00d8788e9aec7de4ea000aeaaed4a880bef938ef303944e1a7211f0","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:16:434	b83fd700	ETH: 10/30/18-17:55:16 - New job from eu1.nanopool.org:9999
+17:55:16:434	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:55:16:434	b83fd700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+17:55:16:434	b83fd700	ETH: GPU0 0.000 Mh/s
+17:55:17:814	d1bee700	NVML: cannot get fan speed, error 3
+17:55:20:815	d1bee700	NVML: cannot get fan speed, error 3
+17:55:21:052	b83fd700	ETH: checking pool connection...
+17:55:21:055	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:55:21:096	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xd4d7fdbee00d8788e9aec7de4ea000aeaaed4a880bef938ef303944e1a7211f0","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:23:815	d1bee700	NVML: cannot get fan speed, error 3
+17:55:26:816	d1bee700	NVML: cannot get fan speed, error 3
+17:55:29:816	d1bee700	NVML: cannot get fan speed, error 3
+17:55:31:056	b83fd700	ETH: checking pool connection...
+17:55:31:058	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:55:31:103	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xd4d7fdbee00d8788e9aec7de4ea000aeaaed4a880bef938ef303944e1a7211f0","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:32:816	d1bee700	NVML: cannot get fan speed, error 3
+17:55:35:817	d1bee700	NVML: cannot get fan speed, error 3
+17:55:35:817	d1bee700	NVML: cannot get fan speed, error 3
+17:55:35:817	d1bee700	GPU0 t=64C fan=0%
+17:55:35:863	d23ef700	em hbt: 0, fm hbt: 97, 
+17:55:35:863	d23ef700	watchdog - thread 0 (gpu0), hb time 24740
+17:55:35:863	d23ef700	watchdog - thread 1 (gpu0), hb time 24740
+17:55:38:144	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x068e341e510a4ed7b99ac3f5b1e7578c3bcdab2bc2654505e2076398185f819a","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:38:144	b83fd700	ETH: 10/30/18-17:55:38 - New job from eu1.nanopool.org:9999
+17:55:38:144	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:55:38:144	b83fd700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+17:55:38:144	b83fd700	ETH: GPU0 0.000 Mh/s
+17:55:38:817	d1bee700	NVML: cannot get fan speed, error 3
+17:55:39:986	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x14305f360f8ba814142eac7da3ed9af8c5c2f36a3110258c88be94b4e36a8c52","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:39:986	b83fd700	ETH: 10/30/18-17:55:39 - New job from eu1.nanopool.org:9999
+17:55:39:987	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:55:39:987	b83fd700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+17:55:39:987	b83fd700	ETH: GPU0 0.000 Mh/s
+17:55:41:060	b83fd700	ETH: checking pool connection...
+17:55:41:060	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:55:41:102	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x14305f360f8ba814142eac7da3ed9af8c5c2f36a3110258c88be94b4e36a8c52","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:41:209	b93ff700	GPU0 DAG creation time - 27713 ms
+17:55:41:209	b93ff700	Setting DAG epoch #220 for GPU0 done
+17:55:41:818	d1bee700	NVML: cannot get fan speed, error 3
+17:55:42:315	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x297455ebfdb3e42446087a15c5ccf22b6d6bdbc9ba6a6c42ffca58f7a967ab00","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:42:315	b83fd700	ETH: 10/30/18-17:55:42 - New job from eu1.nanopool.org:9999
+17:55:42:316	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:55:42:316	b83fd700	ETH - Total Speed: 8.648 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+17:55:42:316	b83fd700	ETH: GPU0 8.648 Mh/s
+17:55:44:818	d1bee700	NVML: cannot get fan speed, error 3
+17:55:47:818	d1bee700	NVML: cannot get fan speed, error 3
+17:55:50:819	d1bee700	NVML: cannot get fan speed, error 3
+17:55:51:054	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x864fa5", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:55:51:062	b83fd700	ETH: checking pool connection...
+17:55:51:062	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:55:51:169	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x297455ebfdb3e42446087a15c5ccf22b6d6bdbc9ba6a6c42ffca58f7a967ab00","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:53:819	d1bee700	NVML: cannot get fan speed, error 3
+17:55:55:552	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xfb2df7b4639f074e35574ec0795833ddaba6ea90b18e47e71285de5a0d410394","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:55:55:552	b83fd700	ETH: 10/30/18-17:55:55 - New job from eu1.nanopool.org:9999
+17:55:55:552	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:55:55:552	b83fd700	ETH - Total Speed: 8.801 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+17:55:55:552	b83fd700	ETH: GPU0 8.801 Mh/s
+17:55:56:819	d1bee700	NVML: cannot get fan speed, error 3
+17:55:59:820	d1bee700	NVML: cannot get fan speed, error 3
+17:56:01:063	b83fd700	ETH: checking pool connection...
+17:56:01:066	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:56:01:107	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xfb2df7b4639f074e35574ec0795833ddaba6ea90b18e47e71285de5a0d410394","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:02:820	d1bee700	NVML: cannot get fan speed, error 3
+17:56:05:820	d1bee700	NVML: cannot get fan speed, error 3
+17:56:05:821	d1bee700	NVML: cannot get fan speed, error 3
+17:56:05:821	d1bee700	GPU0 t=67C fan=0%
+17:56:05:907	d23ef700	em hbt: 1, fm hbt: 95, 
+17:56:05:907	d23ef700	watchdog - thread 0 (gpu0), hb time 170
+17:56:05:907	d23ef700	watchdog - thread 1 (gpu0), hb time 15
+17:56:08:821	d1bee700	NVML: cannot get fan speed, error 3
+17:56:11:057	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x83f91f", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:56:11:067	b83fd700	ETH: checking pool connection...
+17:56:11:067	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:56:11:171	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xfb2df7b4639f074e35574ec0795833ddaba6ea90b18e47e71285de5a0d410394","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:11:821	d1bee700	NVML: cannot get fan speed, error 3
+17:56:14:822	d1bee700	NVML: cannot get fan speed, error 3
+17:56:17:669	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x30fef4d9b49c5ab6b34900418818c4dad9addaa4a0745092b6964993fb734067","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:17:670	b83fd700	ETH: 10/30/18-17:56:17 - New job from eu1.nanopool.org:9999
+17:56:17:670	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:56:17:670	b83fd700	ETH - Total Speed: 8.800 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+17:56:17:670	b83fd700	ETH: GPU0 8.800 Mh/s
+17:56:17:822	d1bee700	NVML: cannot get fan speed, error 3
+17:56:20:823	d1bee700	NVML: cannot get fan speed, error 3
+17:56:21:068	b83fd700	ETH: checking pool connection...
+17:56:21:071	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:56:21:112	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x30fef4d9b49c5ab6b34900418818c4dad9addaa4a0745092b6964993fb734067","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:23:823	d1bee700	NVML: cannot get fan speed, error 3
+17:56:26:823	d1bee700	NVML: cannot get fan speed, error 3
+17:56:29:824	d1bee700	NVML: cannot get fan speed, error 3
+17:56:31:059	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x84402a", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:56:31:073	b83fd700	ETH: checking pool connection...
+17:56:31:073	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:56:31:176	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x30fef4d9b49c5ab6b34900418818c4dad9addaa4a0745092b6964993fb734067","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:32:824	d1bee700	NVML: cannot get fan speed, error 3
+17:56:33:334	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x4083752353f6a244451c19c5d84c0d64b522d3848c4406a6f71c2949f426937d","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:33:334	b83fd700	ETH: 10/30/18-17:56:33 - New job from eu1.nanopool.org:9999
+17:56:33:334	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:56:33:334	b83fd700	ETH - Total Speed: 8.794 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+17:56:33:334	b83fd700	ETH: GPU0 8.794 Mh/s
+17:56:35:825	d1bee700	NVML: cannot get fan speed, error 3
+17:56:35:825	d1bee700	NVML: cannot get fan speed, error 3
+17:56:35:826	d1bee700	GPU0 t=69C fan=0%
+17:56:35:955	d23ef700	em hbt: 0, fm hbt: 93, 
+17:56:35:955	d23ef700	watchdog - thread 0 (gpu0), hb time 65
+17:56:35:955	d23ef700	watchdog - thread 1 (gpu0), hb time 221
+17:56:38:826	d1bee700	NVML: cannot get fan speed, error 3
+17:56:41:074	b83fd700	ETH: checking pool connection...
+17:56:41:074	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:56:41:117	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x4083752353f6a244451c19c5d84c0d64b522d3848c4406a6f71c2949f426937d","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:41:826	d1bee700	NVML: cannot get fan speed, error 3
+17:56:42:860	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x4559db974d543f6efa6e144180eddf12eaf1708bd3c9564bed26d062757969c7","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:42:860	b83fd700	ETH: 10/30/18-17:56:42 - New job from eu1.nanopool.org:9999
+17:56:42:861	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:56:42:861	b83fd700	ETH - Total Speed: 8.800 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+17:56:42:861	b83fd700	ETH: GPU0 8.800 Mh/s
+17:56:44:238	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xcb205a04e64d892ed37c5522bc5b32f3764f4adce9abe856af5be89fda10d435","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:44:238	b83fd700	ETH: 10/30/18-17:56:44 - New job from eu1.nanopool.org:9999
+17:56:44:238	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:56:44:238	b83fd700	ETH - Total Speed: 8.727 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+17:56:44:238	b83fd700	ETH: GPU0 8.727 Mh/s
+17:56:44:827	d1bee700	NVML: cannot get fan speed, error 3
+17:56:47:827	d1bee700	NVML: cannot get fan speed, error 3
+17:56:50:828	d1bee700	NVML: cannot get fan speed, error 3
+17:56:51:058	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x835ab0", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:56:51:075	b83fd700	ETH: checking pool connection...
+17:56:51:075	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:56:51:172	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xcb205a04e64d892ed37c5522bc5b32f3764f4adce9abe856af5be89fda10d435","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:56:53:829	d1bee700	NVML: cannot get fan speed, error 3
+17:56:56:829	d1bee700	NVML: cannot get fan speed, error 3
+17:56:59:830	d1bee700	NVML: cannot get fan speed, error 3
+17:57:01:076	b83fd700	ETH: checking pool connection...
+17:57:01:079	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:57:01:120	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xcb205a04e64d892ed37c5522bc5b32f3764f4adce9abe856af5be89fda10d435","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:02:830	d1bee700	NVML: cannot get fan speed, error 3
+17:57:03:231	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x92c4c5db8875ab5081a6562c003e467712340c6ddd97deaab21d03f334ea3fcc","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:03:232	b83fd700	ETH: 10/30/18-17:57:03 - New job from eu1.nanopool.org:9999
+17:57:03:232	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:57:03:232	b83fd700	ETH - Total Speed: 8.803 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+17:57:03:232	b83fd700	ETH: GPU0 8.803 Mh/s
+17:57:03:750	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc373e52a2f118536fe64e024aaa85483bc90ac386c458c4ae30077567370f18e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:03:751	b83fd700	ETH: 10/30/18-17:57:03 - New job from eu1.nanopool.org:9999
+17:57:03:751	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:57:03:751	b83fd700	ETH - Total Speed: 8.797 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+17:57:03:751	b83fd700	ETH: GPU0 8.797 Mh/s
+17:57:05:830	d1bee700	NVML: cannot get fan speed, error 3
+17:57:05:831	d1bee700	NVML: cannot get fan speed, error 3
+17:57:05:831	d1bee700	GPU0 t=71C fan=0%
+17:57:06:000	d23ef700	em hbt: 1, fm hbt: 91, 
+17:57:06:000	d23ef700	watchdog - thread 0 (gpu0), hb time 146
+17:57:06:001	d23ef700	watchdog - thread 1 (gpu0), hb time 295
+17:57:08:831	d1bee700	NVML: cannot get fan speed, error 3
+17:57:11:062	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x83fe79", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:57:11:080	b83fd700	ETH: checking pool connection...
+17:57:11:080	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:57:11:180	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc373e52a2f118536fe64e024aaa85483bc90ac386c458c4ae30077567370f18e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:11:831	d1bee700	NVML: cannot get fan speed, error 3
+17:57:14:832	d1bee700	NVML: cannot get fan speed, error 3
+17:57:17:832	d1bee700	NVML: cannot get fan speed, error 3
+17:57:20:833	d1bee700	NVML: cannot get fan speed, error 3
+17:57:21:081	b83fd700	ETH: checking pool connection...
+17:57:21:083	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:57:21:091	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x61551ee32a8eb989c47748f7c9075030c66911137e1cfc5a8520c225805b5c4d","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:21:091	b83fd700	ETH: 10/30/18-17:57:21 - New job from eu1.nanopool.org:9999
+17:57:21:091	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:57:21:091	b83fd700	ETH - Total Speed: 8.647 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+17:57:21:091	b83fd700	ETH: GPU0 8.647 Mh/s
+17:57:21:124	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x61551ee32a8eb989c47748f7c9075030c66911137e1cfc5a8520c225805b5c4d","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:23:833	d1bee700	NVML: cannot get fan speed, error 3
+17:57:26:834	d1bee700	NVML: cannot get fan speed, error 3
+17:57:29:834	d1bee700	NVML: cannot get fan speed, error 3
+17:57:31:060	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x840361", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:57:31:084	b83fd700	ETH: checking pool connection...
+17:57:31:084	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:57:31:176	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x61551ee32a8eb989c47748f7c9075030c66911137e1cfc5a8520c225805b5c4d","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:32:834	d1bee700	NVML: cannot get fan speed, error 3
+17:57:35:835	d1bee700	NVML: cannot get fan speed, error 3
+17:57:35:835	d1bee700	NVML: cannot get fan speed, error 3
+17:57:35:835	d1bee700	GPU0 t=72C fan=0%
+17:57:36:048	d23ef700	em hbt: 0, fm hbt: 92, 
+17:57:36:048	d23ef700	watchdog - thread 0 (gpu0), hb time 101
+17:57:36:049	d23ef700	watchdog - thread 1 (gpu0), hb time 255
+17:57:38:835	d1bee700	NVML: cannot get fan speed, error 3
+17:57:41:023	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc32baa17f24cc612e78b1fbd8df2fa5406849c06694f47ffde8f6b186d226959","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:41:024	b83fd700	ETH: 10/30/18-17:57:41 - New job from eu1.nanopool.org:9999
+17:57:41:024	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:57:41:024	b83fd700	gpu #0 dt 123.7 (88%, bad)
+17:57:41:024	b83fd700	ETH - Total Speed: 8.771 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+17:57:41:024	b83fd700	ETH: GPU0 8.771 Mh/s
+17:57:41:085	b83fd700	ETH: checking pool connection...
+17:57:41:086	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:57:41:127	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc32baa17f24cc612e78b1fbd8df2fa5406849c06694f47ffde8f6b186d226959","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:41:836	d1bee700	NVML: cannot get fan speed, error 3
+17:57:44:836	d1bee700	NVML: cannot get fan speed, error 3
+17:57:47:837	d1bee700	NVML: cannot get fan speed, error 3
+17:57:50:837	d1bee700	NVML: cannot get fan speed, error 3
+17:57:51:061	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x865443", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:57:51:087	b83fd700	ETH: checking pool connection...
+17:57:51:087	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:57:51:181	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc32baa17f24cc612e78b1fbd8df2fa5406849c06694f47ffde8f6b186d226959","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:53:838	d1bee700	NVML: cannot get fan speed, error 3
+17:57:55:563	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x78aa47cb6b6ce679e346b8200d75f10a39bb295e1b15f8a276d372d9940a41e9","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:57:55:564	b83fd700	ETH: 10/30/18-17:57:55 - New job from eu1.nanopool.org:9999
+17:57:55:564	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:57:55:564	b83fd700	ETH - Total Speed: 8.801 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+17:57:55:564	b83fd700	ETH: GPU0 8.801 Mh/s
+17:57:56:838	d1bee700	NVML: cannot get fan speed, error 3
+17:57:59:838	d1bee700	NVML: cannot get fan speed, error 3
+17:58:01:088	b83fd700	ETH: checking pool connection...
+17:58:01:090	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:58:01:135	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x78aa47cb6b6ce679e346b8200d75f10a39bb295e1b15f8a276d372d9940a41e9","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:02:839	d1bee700	NVML: cannot get fan speed, error 3
+17:58:03:142	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8414abca411569405dde9e8bca5240144181e74a2385fdd248951e79d4a49be3","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:03:142	b83fd700	ETH: 10/30/18-17:58:03 - New job from eu1.nanopool.org:9999
+17:58:03:143	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:58:03:143	b83fd700	ETH - Total Speed: 8.796 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:02
+17:58:03:143	b83fd700	ETH: GPU0 8.796 Mh/s
+17:58:05:839	d1bee700	NVML: cannot get fan speed, error 3
+17:58:05:840	d1bee700	NVML: cannot get fan speed, error 3
+17:58:05:840	d1bee700	GPU0 t=72C fan=0%
+17:58:06:094	d23ef700	em hbt: 0, fm hbt: 91, 
+17:58:06:094	d23ef700	watchdog - thread 0 (gpu0), hb time 251
+17:58:06:094	d23ef700	watchdog - thread 1 (gpu0), hb time 97
+17:58:08:840	d1bee700	NVML: cannot get fan speed, error 3
+17:58:11:065	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x83e09d", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:58:11:091	b83fd700	ETH: checking pool connection...
+17:58:11:091	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:58:11:180	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8414abca411569405dde9e8bca5240144181e74a2385fdd248951e79d4a49be3","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:11:840	d1bee700	NVML: cannot get fan speed, error 3
+17:58:14:841	d1bee700	NVML: cannot get fan speed, error 3
+17:58:17:841	d1bee700	NVML: cannot get fan speed, error 3
+17:58:20:842	d1bee700	NVML: cannot get fan speed, error 3
+17:58:21:092	b83fd700	ETH: checking pool connection...
+17:58:21:092	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:58:21:132	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8414abca411569405dde9e8bca5240144181e74a2385fdd248951e79d4a49be3","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:23:842	d1bee700	NVML: cannot get fan speed, error 3
+17:58:26:842	d1bee700	NVML: cannot get fan speed, error 3
+17:58:27:718	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x70bdaf00e72e79ecbbe0128d719b6326ddfde88cb01cb14a10b96c906815eb19","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:27:718	b83fd700	ETH: 10/30/18-17:58:27 - New job from eu1.nanopool.org:9999
+17:58:27:718	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:58:27:718	b83fd700	ETH - Total Speed: 8.641 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+17:58:27:718	b83fd700	ETH: GPU0 8.641 Mh/s
+17:58:29:843	d1bee700	NVML: cannot get fan speed, error 3
+17:58:30:009	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xae289170c5699954402f0c31a7dea6cba6c33f43bf27f3b322b0318d27885ccd","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:30:010	b83fd700	ETH: 10/30/18-17:58:30 - New job from eu1.nanopool.org:9999
+17:58:30:010	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:58:30:010	b83fd700	ETH - Total Speed: 8.670 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+17:58:30:010	b83fd700	ETH: GPU0 8.670 Mh/s
+17:58:31:065	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x72e51d", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:58:31:094	b83fd700	ETH: checking pool connection...
+17:58:31:094	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:58:31:181	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xae289170c5699954402f0c31a7dea6cba6c33f43bf27f3b322b0318d27885ccd","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:32:843	d1bee700	NVML: cannot get fan speed, error 3
+17:58:35:843	d1bee700	NVML: cannot get fan speed, error 3
+17:58:35:844	d1bee700	NVML: cannot get fan speed, error 3
+17:58:35:844	d1bee700	GPU0 t=73C fan=0%
+17:58:36:134	d23ef700	em hbt: 0, fm hbt: 91, 
+17:58:36:134	d23ef700	watchdog - thread 0 (gpu0), hb time 238
+17:58:36:134	d23ef700	watchdog - thread 1 (gpu0), hb time 87
+17:58:38:844	d1bee700	NVML: cannot get fan speed, error 3
+17:58:41:095	b83fd700	ETH: checking pool connection...
+17:58:41:097	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:58:41:140	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xae289170c5699954402f0c31a7dea6cba6c33f43bf27f3b322b0318d27885ccd","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:41:844	d1bee700	NVML: cannot get fan speed, error 3
+17:58:43:897	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x7fef8fd314498042405ca7350b409b7dc2b95f25b97a203cce03482be0e8a84a","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:43:897	b83fd700	ETH: 10/30/18-17:58:43 - New job from eu1.nanopool.org:9999
+17:58:43:897	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:58:43:897	b83fd700	ETH - Total Speed: 7.820 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+17:58:43:897	b83fd700	ETH: GPU0 7.820 Mh/s
+17:58:44:845	d1bee700	NVML: cannot get fan speed, error 3
+17:58:47:845	d1bee700	NVML: cannot get fan speed, error 3
+17:58:50:845	d1bee700	NVML: cannot get fan speed, error 3
+17:58:51:065	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x863b56", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:58:51:098	b83fd700	ETH: checking pool connection...
+17:58:51:099	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:58:51:106	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc462db80062e3180c88d63ca7be31d31127e25f6d65440871f276617eee9c63b","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:51:106	b83fd700	ETH: 10/30/18-17:58:51 - New job from eu1.nanopool.org:9999
+17:58:51:106	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:58:51:106	b83fd700	ETH - Total Speed: 8.790 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:03
+17:58:51:106	b83fd700	ETH: GPU0 8.790 Mh/s
+17:58:51:147	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc462db80062e3180c88d63ca7be31d31127e25f6d65440871f276617eee9c63b","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:58:53:846	d1bee700	NVML: cannot get fan speed, error 3
+17:58:56:846	d1bee700	NVML: cannot get fan speed, error 3
+17:58:59:847	d1bee700	NVML: cannot get fan speed, error 3
+17:59:01:101	b83fd700	ETH: checking pool connection...
+17:59:01:101	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:59:01:142	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc462db80062e3180c88d63ca7be31d31127e25f6d65440871f276617eee9c63b","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:02:847	d1bee700	NVML: cannot get fan speed, error 3
+17:59:05:847	d1bee700	NVML: cannot get fan speed, error 3
+17:59:05:847	d1bee700	NVML: cannot get fan speed, error 3
+17:59:05:847	d1bee700	GPU0 t=73C fan=0%
+17:59:06:180	d23ef700	em hbt: 1, fm hbt: 92, 
+17:59:06:180	d23ef700	watchdog - thread 0 (gpu0), hb time 117
+17:59:06:180	d23ef700	watchdog - thread 1 (gpu0), hb time 267
+17:59:08:848	d1bee700	NVML: cannot get fan speed, error 3
+17:59:11:067	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8636f5", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:59:11:102	b83fd700	ETH: checking pool connection...
+17:59:11:102	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:59:11:344	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc462db80062e3180c88d63ca7be31d31127e25f6d65440871f276617eee9c63b","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:11:848	d1bee700	NVML: cannot get fan speed, error 3
+17:59:14:849	d1bee700	NVML: cannot get fan speed, error 3
+17:59:17:849	d1bee700	NVML: cannot get fan speed, error 3
+17:59:20:849	d1bee700	NVML: cannot get fan speed, error 3
+17:59:21:103	b83fd700	ETH: checking pool connection...
+17:59:21:104	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:59:21:153	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc462db80062e3180c88d63ca7be31d31127e25f6d65440871f276617eee9c63b","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:23:850	d1bee700	NVML: cannot get fan speed, error 3
+17:59:26:850	d1bee700	NVML: cannot get fan speed, error 3
+17:59:29:851	d1bee700	NVML: cannot get fan speed, error 3
+17:59:31:071	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x8619b2", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:59:31:106	b83fd700	ETH: checking pool connection...
+17:59:31:106	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:59:31:184	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc462db80062e3180c88d63ca7be31d31127e25f6d65440871f276617eee9c63b","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:32:851	d1bee700	NVML: cannot get fan speed, error 3
+17:59:35:101	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x53046e5f03e4c09b77b268166e5ffd23b5efa44b79178474d0b7fc3f40010ece","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:35:101	b83fd700	ETH: 10/30/18-17:59:35 - New job from eu1.nanopool.org:9999
+17:59:35:102	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:35:102	b83fd700	ETH - Total Speed: 8.796 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:35:102	b83fd700	ETH: GPU0 8.796 Mh/s
+17:59:35:851	d1bee700	NVML: cannot get fan speed, error 3
+17:59:35:852	d1bee700	NVML: cannot get fan speed, error 3
+17:59:35:852	d1bee700	GPU0 t=74C fan=0%
+17:59:36:228	d23ef700	em hbt: 0, fm hbt: 88, 
+17:59:36:228	d23ef700	watchdog - thread 0 (gpu0), hb time 71
+17:59:36:228	d23ef700	watchdog - thread 1 (gpu0), hb time 220
+17:59:38:852	d1bee700	NVML: cannot get fan speed, error 3
+17:59:40:676	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe0f4ca25145476fe255b0ccb90c0e32fe498e4058539eb9a7f41bfdf8b2d51fb","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:40:676	b83fd700	ETH: 10/30/18-17:59:40 - New job from eu1.nanopool.org:9999
+17:59:40:676	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:40:676	b83fd700	ETH - Total Speed: 8.150 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:40:676	b83fd700	ETH: GPU0 8.150 Mh/s
+17:59:41:108	b83fd700	ETH: checking pool connection...
+17:59:41:110	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:59:41:153	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe0f4ca25145476fe255b0ccb90c0e32fe498e4058539eb9a7f41bfdf8b2d51fb","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:41:852	d1bee700	NVML: cannot get fan speed, error 3
+17:59:43:369	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xf117e8a398bbaac4d1baa93c9012758edcc020d29f2f372016084f78a4e8a4cb","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:43:370	b83fd700	ETH: 10/30/18-17:59:43 - New job from eu1.nanopool.org:9999
+17:59:43:370	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:43:370	b83fd700	ETH - Total Speed: 8.790 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:43:370	b83fd700	ETH: GPU0 8.790 Mh/s
+17:59:44:518	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x22f17bd6a0b8303d0d0c317ba5cfc9244521576e05dcc0159b5a5b43ccf74e1a","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:44:518	b83fd700	ETH: 10/30/18-17:59:44 - New job from eu1.nanopool.org:9999
+17:59:44:518	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:44:518	b83fd700	gpu #0 dt 0.7 (0%, good)
+17:59:44:518	b83fd700	ETH - Total Speed: 8.771 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:44:518	b83fd700	ETH: GPU0 8.771 Mh/s
+17:59:44:852	d1bee700	NVML: cannot get fan speed, error 3
+17:59:46:248	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x9a2ea4d9d2c06b9b5dd82336b8ef9fd75f6c3a33e674bb87f0e648a14762918a","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:46:249	b83fd700	ETH: 10/30/18-17:59:46 - New job from eu1.nanopool.org:9999
+17:59:46:249	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:46:249	b83fd700	ETH - Total Speed: 8.792 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:46:249	b83fd700	ETH: GPU0 8.792 Mh/s
+17:59:47:853	d1bee700	NVML: cannot get fan speed, error 3
+17:59:50:853	d1bee700	NVML: cannot get fan speed, error 3
+17:59:51:070	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x863bcc", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+17:59:51:111	b83fd700	ETH: checking pool connection...
+17:59:51:111	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+17:59:51:188	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x9a2ea4d9d2c06b9b5dd82336b8ef9fd75f6c3a33e674bb87f0e648a14762918a","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:53:853	d1bee700	NVML: cannot get fan speed, error 3
+17:59:56:806	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xdb7f1b31572132abf45272c574293c7d94ee61c2811d4d8f35e4a9fdd148330f","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:56:806	b83fd700	ETH: 10/30/18-17:59:56 - New job from eu1.nanopool.org:9999
+17:59:56:806	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:56:806	b83fd700	ETH - Total Speed: 8.680 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:56:806	b83fd700	ETH: GPU0 8.680 Mh/s
+17:59:56:854	d1bee700	NVML: cannot get fan speed, error 3
+17:59:59:237	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe4d55cce2e7c379e577ed0c54533609f3b3d06e21f69fa24de6cc26e7e444b74","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+17:59:59:237	b83fd700	ETH: 10/30/18-17:59:59 - New job from eu1.nanopool.org:9999
+17:59:59:237	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+17:59:59:237	b83fd700	ETH - Total Speed: 8.789 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:04
+17:59:59:237	b83fd700	ETH: GPU0 8.789 Mh/s
+17:59:59:854	d1bee700	NVML: cannot get fan speed, error 3
+18:00:01:112	b83fd700	ETH: checking pool connection...
+18:00:01:113	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:00:01:154	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe4d55cce2e7c379e577ed0c54533609f3b3d06e21f69fa24de6cc26e7e444b74","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:02:855	d1bee700	NVML: cannot get fan speed, error 3
+18:00:05:855	d1bee700	NVML: cannot get fan speed, error 3
+18:00:05:855	d1bee700	NVML: cannot get fan speed, error 3
+18:00:05:855	d1bee700	GPU0 t=74C fan=0%
+18:00:06:277	d23ef700	em hbt: 1, fm hbt: 88, 
+18:00:06:277	d23ef700	watchdog - thread 0 (gpu0), hb time 159
+18:00:06:277	d23ef700	watchdog - thread 1 (gpu0), hb time 10
+18:00:08:856	d1bee700	NVML: cannot get fan speed, error 3
+18:00:11:073	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x861efe", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+18:00:11:115	b83fd700	ETH: checking pool connection...
+18:00:11:115	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:00:11:189	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe4d55cce2e7c379e577ed0c54533609f3b3d06e21f69fa24de6cc26e7e444b74","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:11:856	d1bee700	NVML: cannot get fan speed, error 3
+18:00:14:856	d1bee700	NVML: cannot get fan speed, error 3
+18:00:17:857	d1bee700	NVML: cannot get fan speed, error 3
+18:00:18:110	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x269055a9213c9282bc73a3ae02459305ebd3b3358a323c7eed1fcb881546b03e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:18:110	b83fd700	ETH: 10/30/18-18:00:18 - New job from eu1.nanopool.org:9999
+18:00:18:110	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+18:00:18:110	b83fd700	ETH - Total Speed: 8.795 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+18:00:18:110	b83fd700	ETH: GPU0 8.795 Mh/s
+18:00:20:857	d1bee700	NVML: cannot get fan speed, error 3
+18:00:21:116	b83fd700	ETH: checking pool connection...
+18:00:21:116	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:00:21:157	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x269055a9213c9282bc73a3ae02459305ebd3b3358a323c7eed1fcb881546b03e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:23:857	d1bee700	NVML: cannot get fan speed, error 3
+18:00:26:858	d1bee700	NVML: cannot get fan speed, error 3
+18:00:29:858	d1bee700	NVML: cannot get fan speed, error 3
+18:00:31:075	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x864ce0", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+18:00:31:117	b83fd700	ETH: checking pool connection...
+18:00:31:117	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:00:31:198	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x269055a9213c9282bc73a3ae02459305ebd3b3358a323c7eed1fcb881546b03e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:32:858	d1bee700	NVML: cannot get fan speed, error 3
+18:00:35:859	d1bee700	NVML: cannot get fan speed, error 3
+18:00:35:859	d1bee700	NVML: cannot get fan speed, error 3
+18:00:35:859	d1bee700	GPU0 t=73C fan=0%
+18:00:36:325	d23ef700	em hbt: 0, fm hbt: 83, 
+18:00:36:326	d23ef700	watchdog - thread 0 (gpu0), hb time 284
+18:00:36:326	d23ef700	watchdog - thread 1 (gpu0), hb time 135
+18:00:38:859	d1bee700	NVML: cannot get fan speed, error 3
+18:00:41:118	b83fd700	ETH: checking pool connection...
+18:00:41:121	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:00:41:161	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x269055a9213c9282bc73a3ae02459305ebd3b3358a323c7eed1fcb881546b03e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:41:860	d1bee700	NVML: cannot get fan speed, error 3
+18:00:44:860	d1bee700	NVML: cannot get fan speed, error 3
+18:00:47:860	d1bee700	NVML: cannot get fan speed, error 3
+18:00:50:861	d1bee700	NVML: cannot get fan speed, error 3
+18:00:51:074	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x762dca", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+18:00:51:122	b83fd700	ETH: checking pool connection...
+18:00:51:122	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:00:51:189	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x269055a9213c9282bc73a3ae02459305ebd3b3358a323c7eed1fcb881546b03e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:00:53:861	d1bee700	NVML: cannot get fan speed, error 3
+18:00:56:861	d1bee700	NVML: cannot get fan speed, error 3
+18:00:59:862	d1bee700	NVML: cannot get fan speed, error 3
+18:01:01:124	b83fd700	ETH: checking pool connection...
+18:01:01:124	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:01:01:165	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x269055a9213c9282bc73a3ae02459305ebd3b3358a323c7eed1fcb881546b03e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:01:02:153	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x75f52eb3b3b72c9a03916b573143f58e143048f64d41ba8bf382774a47dfcb6e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:01:02:153	b83fd700	ETH: 10/30/18-18:01:02 - New job from eu1.nanopool.org:9999
+18:01:02:153	b83fd700	target: 0x000000006df37f67 (diff: 10000MH), epoch 220(2.72GB)
+18:01:02:153	b83fd700	ETH - Total Speed: 8.267 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:05
+18:01:02:153	b83fd700	ETH: GPU0 8.267 Mh/s
+18:01:02:862	d1bee700	NVML: cannot get fan speed, error 3
+18:01:05:862	d1bee700	NVML: cannot get fan speed, error 3
+18:01:05:862	d1bee700	NVML: cannot get fan speed, error 3
+18:01:05:862	d1bee700	GPU0 t=75C fan=0%
+18:01:06:368	d23ef700	em hbt: 0, fm hbt: 89, 
+18:01:06:368	d23ef700	watchdog - thread 0 (gpu0), hb time 95
+18:01:06:368	d23ef700	watchdog - thread 1 (gpu0), hb time 244
+18:01:08:863	d1bee700	NVML: cannot get fan speed, error 3
+18:01:11:077	b83fd700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x828bb6", "0x000000000000000000000000000000000000000000000000000000001b10e72e"]}
+
+18:01:11:126	b83fd700	ETH: checking pool connection...
+18:01:11:126	b83fd700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+18:01:11:192	b83fd700	buf: {"jsonrpc":"2.0","id":0,"result":["0x75f52eb3b3b72c9a03916b573143f58e143048f64d41ba8bf382774a47dfcb6e","0xa7958ab88d27488e1b03ec3d1aeca336d8baffd356f32fdf00d3772b24765d28","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+18:01:11:863	d1bee700	NVML: cannot get fan speed, error 3
+18:01:14:863	d1bee700	NVML: cannot get fan speed, error 3
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

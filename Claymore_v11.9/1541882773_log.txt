@@ -1,0 +1,161 @@
+21:46:13:549	5d02d0c0	Check and remove old log files...
+21:46:13:550	5d02d0c0	args: -epool eth.eu1.nanopool.org:9999 -ewal 0x0D98D74622Ac6C94D6133D0B4EA9782DE64fE5aA/ricoche -epsw x -mode 1 --allpools 0 -r 1 -etha 0 
+21:46:13:550	5d02d0c0	
+21:46:13:550	5d02d0c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:46:13:550	5d02d0c0	บ                Claymore's Dual GPU Miner - v11.9               บ
+21:46:13:550	5d02d0c0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:46:13:550	5d02d0c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:46:13:550	5d02d0c0	
+21:46:13:550	5d02d0c0	b597 
+21:46:13:751	5d02d0c0	ETH: 1 pool is specified
+21:46:13:751	5d02d0c0	Main Ethereum pool is eth.eu1.nanopool.org:9999
+21:46:13:786	5d02d0c0	OpenCL platform: NVIDIA CUDA
+21:46:13:786	5d02d0c0	AMD OpenCL platform not found 
+21:46:13:794	5d02d0c0	CUDA initializing...
+
+21:46:13:794	5d02d0c0	NVIDIA Cards available: 1 
+21:46:13:794	5d02d0c0	CUDA Driver Version/Runtime Version: 9.1/8.0
+21:46:13:795	5d02d0c0	GPU #0: GeForce GTX 1050, 4042 MB available, 5 compute units, capability: 6.1  (pci bus 1:0:0)
+21:46:13:795	5d02d0c0	Total cards: 1 
+21:46:17:796	5d02d0c0	
+You can use "+" and "-" keys to achieve best ETH speed, see "FINE TUNING" section in Readme for details.
+
+21:46:18:801	5d02d0c0	NVML version: 9.390.48
+21:46:18:807	5d02d0c0	NVML: cannot get fan speed, error 3
+21:46:18:897	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:46:18:897	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:46:18:897	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:46:18:997	5d02d0c0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:46:18:997	5d02d0c0	ETH: eth-proxy stratum mode
+21:46:18:997	5d02d0c0	Watchdog enabled
+21:46:18:997	5d02d0c0	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:46:18:997	5d02d0c0	
+21:46:19:758	5a634700	NVML: cannot get fan speed, error 3
+21:46:22:758	5a634700	NVML: cannot get fan speed, error 3
+21:46:25:758	5a634700	NVML: cannot get fan speed, error 3
+21:46:28:759	5a634700	NVML: cannot get fan speed, error 3
+21:46:31:759	5a634700	NVML: cannot get fan speed, error 3
+21:46:34:760	5a634700	NVML: cannot get fan speed, error 3
+21:46:37:760	5a634700	NVML: cannot get fan speed, error 3
+21:46:38:898	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:46:38:898	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:46:38:898	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:46:40:760	5a634700	NVML: cannot get fan speed, error 3
+21:46:43:760	5a634700	NVML: cannot get fan speed, error 3
+21:46:43:761	5a634700	NVML: cannot get fan speed, error 3
+21:46:43:761	5a634700	GPU0 t=52C fan=0%
+21:46:43:789	5ae35700	em hbt: 4892, fm hbt: 64, 
+21:46:43:790	5ae35700	watchdog - thread 0 (gpu0), hb time 0
+21:46:43:790	5ae35700	watchdog - thread 1 (gpu0), hb time 101
+21:46:46:761	5a634700	NVML: cannot get fan speed, error 3
+21:46:49:761	5a634700	NVML: cannot get fan speed, error 3
+21:46:52:762	5a634700	NVML: cannot get fan speed, error 3
+21:46:55:762	5a634700	NVML: cannot get fan speed, error 3
+21:46:58:762	5a634700	NVML: cannot get fan speed, error 3
+21:46:58:899	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:46:58:899	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:46:58:899	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:47:01:763	5a634700	NVML: cannot get fan speed, error 3
+21:47:04:763	5a634700	NVML: cannot get fan speed, error 3
+21:47:07:763	5a634700	NVML: cannot get fan speed, error 3
+21:47:10:764	5a634700	NVML: cannot get fan speed, error 3
+21:47:13:764	5a634700	NVML: cannot get fan speed, error 3
+21:47:13:764	5a634700	NVML: cannot get fan speed, error 3
+21:47:13:764	5a634700	GPU0 t=52C fan=0%
+21:47:13:823	5ae35700	em hbt: 14925, fm hbt: 64, 
+21:47:13:823	5ae35700	watchdog - thread 0 (gpu0), hb time 77
+21:47:13:823	5ae35700	watchdog - thread 1 (gpu0), hb time 77
+21:47:16:764	5a634700	NVML: cannot get fan speed, error 3
+21:47:18:899	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:47:18:900	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:47:18:900	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:47:19:765	5a634700	NVML: cannot get fan speed, error 3
+21:47:22:765	5a634700	NVML: cannot get fan speed, error 3
+21:47:25:766	5a634700	NVML: cannot get fan speed, error 3
+21:47:28:766	5a634700	NVML: cannot get fan speed, error 3
+21:47:31:766	5a634700	NVML: cannot get fan speed, error 3
+21:47:34:767	5a634700	NVML: cannot get fan speed, error 3
+21:47:37:767	5a634700	NVML: cannot get fan speed, error 3
+21:47:38:900	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:47:38:901	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:47:38:901	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:47:40:767	5a634700	NVML: cannot get fan speed, error 3
+21:47:43:768	5a634700	NVML: cannot get fan speed, error 3
+21:47:43:768	5a634700	NVML: cannot get fan speed, error 3
+21:47:43:768	5a634700	GPU0 t=53C fan=0%
+21:47:43:856	5ae35700	em hbt: 4956, fm hbt: 63, 
+21:47:43:856	5ae35700	watchdog - thread 0 (gpu0), hb time 52
+21:47:43:856	5ae35700	watchdog - thread 1 (gpu0), hb time 52
+21:47:46:768	5a634700	NVML: cannot get fan speed, error 3
+21:47:49:769	5a634700	NVML: cannot get fan speed, error 3
+21:47:52:769	5a634700	NVML: cannot get fan speed, error 3
+21:47:55:769	5a634700	NVML: cannot get fan speed, error 3
+21:47:58:770	5a634700	NVML: cannot get fan speed, error 3
+21:47:58:902	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:47:58:902	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:47:58:902	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:48:01:770	5a634700	NVML: cannot get fan speed, error 3
+21:48:04:771	5a634700	NVML: cannot get fan speed, error 3
+21:48:07:771	5a634700	NVML: cannot get fan speed, error 3
+21:48:10:771	5a634700	NVML: cannot get fan speed, error 3
+21:48:13:772	5a634700	NVML: cannot get fan speed, error 3
+21:48:13:772	5a634700	NVML: cannot get fan speed, error 3
+21:48:13:772	5a634700	GPU0 t=51C fan=0%
+21:48:13:891	5ae35700	em hbt: 14990, fm hbt: 64, 
+21:48:13:891	5ae35700	watchdog - thread 0 (gpu0), hb time 27
+21:48:13:891	5ae35700	watchdog - thread 1 (gpu0), hb time 27
+21:48:16:772	5a634700	NVML: cannot get fan speed, error 3
+21:48:18:902	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:48:18:903	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:48:18:903	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:48:19:773	5a634700	NVML: cannot get fan speed, error 3
+21:48:22:773	5a634700	NVML: cannot get fan speed, error 3
+21:48:25:773	5a634700	NVML: cannot get fan speed, error 3
+21:48:28:774	5a634700	NVML: cannot get fan speed, error 3
+21:48:31:774	5a634700	NVML: cannot get fan speed, error 3
+21:48:34:775	5a634700	NVML: cannot get fan speed, error 3
+21:48:37:775	5a634700	NVML: cannot get fan speed, error 3
+21:48:38:903	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:48:38:903	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:48:38:904	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:48:40:775	5a634700	NVML: cannot get fan speed, error 3
+21:48:43:779	5a634700	NVML: cannot get fan speed, error 3
+21:48:43:779	5a634700	NVML: cannot get fan speed, error 3
+21:48:43:779	5a634700	GPU0 t=51C fan=0%
+21:48:43:924	5ae35700	em hbt: 5021, fm hbt: 61, 
+21:48:43:924	5ae35700	watchdog - thread 0 (gpu0), hb time 101
+21:48:43:924	5ae35700	watchdog - thread 1 (gpu0), hb time 101
+21:48:46:779	5a634700	NVML: cannot get fan speed, error 3
+21:48:49:780	5a634700	NVML: cannot get fan speed, error 3
+21:48:52:780	5a634700	NVML: cannot get fan speed, error 3
+21:48:55:780	5a634700	NVML: cannot get fan speed, error 3
+21:48:58:781	5a634700	NVML: cannot get fan speed, error 3
+21:48:58:904	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:48:58:904	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:48:58:904	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:49:01:781	5a634700	NVML: cannot get fan speed, error 3
+21:49:04:781	5a634700	NVML: cannot get fan speed, error 3
+21:49:07:782	5a634700	NVML: cannot get fan speed, error 3
+21:49:10:782	5a634700	NVML: cannot get fan speed, error 3
+21:49:13:782	5a634700	NVML: cannot get fan speed, error 3
+21:49:13:782	5a634700	NVML: cannot get fan speed, error 3
+21:49:13:782	5a634700	GPU0 t=53C fan=0%
+21:49:13:954	5ae35700	em hbt: 15050, fm hbt: 58, 
+21:49:13:955	5ae35700	watchdog - thread 0 (gpu0), hb time 76
+21:49:13:955	5ae35700	watchdog - thread 1 (gpu0), hb time 76
+21:49:16:783	5a634700	NVML: cannot get fan speed, error 3
+21:49:18:905	399fd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:49:18:906	399fd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:9999
+21:49:18:906	399fd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:49:19:783	5a634700	NVML: cannot get fan speed, error 3
+21:49:22:783	5a634700	NVML: cannot get fan speed, error 3
+21:49:25:784	5a634700	NVML: cannot get fan speed, error 3
+21:49:28:784	5a634700	NVML: cannot get fan speed, error 3
+21:49:31:784	5a634700	NVML: cannot get fan speed, error 3
+21:49:34:785	5a634700	NVML: cannot get fan speed, error 3
+21:49:35:397	5d02d0c0	Quit signal received...
+21:49:35:398	32ffd700	NVML: cannot get fan speed, error 3
+21:49:35:574	5a634700	Quit signal received...
+21:49:35:649	32ffd700	NVML: cannot get fan speed, error 3
+21:49:35:735	4bd0b700	Quit signal received...
+21:49:35:899	32ffd700	NVML: cannot get fan speed, error 3

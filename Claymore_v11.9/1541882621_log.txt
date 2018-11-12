@@ -1,0 +1,36 @@
+21:43:41:664	4c7510c0	Check and remove old log files...
+21:43:41:665	4c7510c0	args: -epool eth.eu1.nanopool.org:8888 -ewal 0x0D98D74622Ac6C94D6133D0B4EA9782DE64fE5aA.ricoche -epsw x -mode 1 --allpools 0 -r 1 -etha 0 
+21:43:41:665	4c7510c0	
+21:43:41:665	4c7510c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+21:43:41:665	4c7510c0	บ                Claymore's Dual GPU Miner - v11.9               บ
+21:43:41:665	4c7510c0	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+21:43:41:665	4c7510c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+21:43:41:665	4c7510c0	
+21:43:41:665	4c7510c0	b597 
+21:43:41:866	4c7510c0	ETH: 1 pool is specified
+21:43:41:866	4c7510c0	Main Ethereum pool is eth.eu1.nanopool.org:8888
+21:43:41:906	4c7510c0	OpenCL platform: NVIDIA CUDA
+21:43:41:906	4c7510c0	AMD OpenCL platform not found 
+21:43:41:923	4c7510c0	CUDA initializing...
+
+21:43:41:923	4c7510c0	NVIDIA Cards available: 1 
+21:43:41:923	4c7510c0	CUDA Driver Version/Runtime Version: 9.1/8.0
+21:43:41:923	4c7510c0	GPU #0: GeForce GTX 1050, 4042 MB available, 5 compute units, capability: 6.1  (pci bus 1:0:0)
+21:43:41:923	4c7510c0	Total cards: 1 
+21:43:45:925	4c7510c0	
+You can use "+" and "-" keys to achieve best ETH speed, see "FINE TUNING" section in Readme for details.
+
+21:43:46:930	4c7510c0	NVML version: 9.390.48
+21:43:46:936	4c7510c0	NVML: cannot get fan speed, error 3
+21:43:47:103	4c7510c0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+21:43:47:104	4c7510c0	ETH: eth-proxy stratum mode
+21:43:47:104	4c7510c0	Watchdog enabled
+21:43:47:104	4c7510c0	Remote management (READ-ONLY MODE) is enabled on port 3333
+21:43:47:104	4c7510c0	
+21:43:47:343	28ffd700	Cannot resolve 'eth.eu1.nanopool.org'
+21:43:47:343	28ffd700	ETH: Stratum - Cannot connect to eth.eu1.nanopool.org:8888
+21:43:47:343	28ffd700	ETH: Stratum - Failed to connect, retry in 20 sec...
+21:43:47:873	49d58700	NVML: cannot get fan speed, error 3
+21:43:50:873	49d58700	NVML: cannot get fan speed, error 3
+21:43:52:227	4c7510c0	Quit signal received...
+21:43:52:227	225e1700	NVML: cannot get fan speed, error 3
