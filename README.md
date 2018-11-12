@@ -1,2 +1,2 @@
 # mngethnvidia
-mining eth on nvidia 
+mining eth with nvidia cards, with claymore software 
